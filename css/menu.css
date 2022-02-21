@@ -1,0 +1,36 @@
+#menu{
+    display: flex; /**/
+    height: 35px;
+    margin-bottom: 10px;
+    width: 880px;
+    background-color: #488000;
+    color: white;
+    margin-left: 10px;
+    margin-top: 91px;
+}
+
+#container .principal{
+    float: left;
+    color: #fff;
+    border-right: 1px solid #fff;
+    text-decoration: none;
+    padding: 10px 25px 10px 25px;
+}
+
+#container a:hover{
+    color: #fff;
+    font-size: larger;
+    font-weight: bold;
+    background-color: #224777;
+}
+
+#container a.last{
+    border-right: 0px;
+}
+
+@media screen and (max-width: 700px){
+    #container, #container .principal{
+        width: 100%;
+        border-right: 0px;
+    }
+}
