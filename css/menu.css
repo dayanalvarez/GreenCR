@@ -21,7 +21,7 @@
     color: #fff;
     font-size: larger;
     font-weight: bold;
-    background-color: #224777;
+    background-color: #26532a;
 }
 
 #container a.last{
@@ -32,5 +32,9 @@
     #container, #container .principal{
         width: 100%;
         border-right: 0px;
+        background-color: #488000;
+        color: white;
+       
+    
     }
 }

@@ -9,7 +9,6 @@ body {
   background-size: 100% 100%;
   background-attachment: fixed;
   color: rgb(0, 0, 0);
-  
 }
 
 a {
@@ -34,7 +33,6 @@ p {
   margin: 0 auto;
   background-color: #fff;
   border: initial;
-
 }
 
 #header {
@@ -83,26 +81,23 @@ p {
   line-height: 25px;
   color: #000000;
   letter-spacing: -1px;
-  background: url(../images/a22.gif) bottom repeat-x;
   padding: 0px 0px 10px 10px;
   margin-bottom: 3px;
 }
 
 #secondarycontent .content {
   padding: 0px 10px 0px 10px;
- 
 }
-#secondarycontent .content #imagen  {
- width:  300px;
- height: 340px;
- 
+#secondarycontent .content #imagen {
+  width: 300px;
+  height: 340px;
 }
 #primarycontent h3 {
   font-size: 25px;
   line-height: 25px;
   color: #000000;
   letter-spacing: -1px;
-  background: url(../images/a22.gif) bottom repeat-x;
+
   padding: 0px 0px 10px 10px;
   margin-bottom: 3px;
 }
@@ -111,7 +106,7 @@ p {
   line-height: 25px;
   color: #488000;
   letter-spacing: -1px;
-  background: url(../images/a22.gif) bottom repeat-x;
+
   padding: 0px 0px 10px 10px;
   margin-bottom: 3px;
 }
@@ -119,7 +114,7 @@ p {
   font-size: 20px;
   line-height: 25px;
   color: #488000;
- 
+
   letter-spacing: -1px;
   padding: 0px 0px 10px 10px;
   margin-bottom: 3px;
@@ -137,7 +132,6 @@ p {
 }
 
 #primarycontent .post .footer {
-  background: url(../images/a33.gif) repeat-x;
   height: 34px;
   margin-top: 5px;
   text-align: right;
@@ -154,10 +148,6 @@ p {
   margin-left: 25px;
   background-repeat: no-repeat;
   background-position: 0px 2px;
-}
-
-#primarycontent .post .footer ul li.readmore {
-  background-image: url(../images/a38.gif);
 }
 
 img.picA {
@@ -181,22 +171,6 @@ img.picB {
   padding: 7px;
 }
 
-ul.linklist {
-  list-style: none;
-}
-
-ul.linklist li {
-  border-top: solid 1px color #eee;
-  padding-top: 5px;
-  margin: 5px 0px 0px 0px;
-}
-
-ul.linklist li.first {
-  border-top: 0px;
-  padding-top: 0px;
-  margin-top: 0px;
-}
-
 #footer {
   margin-bottom: 10px;
   margin-left: 10px;
@@ -206,36 +180,80 @@ ul.linklist li.first {
   height: 45px;
   text-align: center;
   color: #fff;
+}
+@media only screen and (max-width: 920px) {
+  /* For mobile phones: */
+  #outer {
+    width: 100%;
+    height: 1000px;
+  }
+}
+@media only screen and (max-width: 920px) {
+  /* For mobile phones: */
+  #menu {
+    text-align: center;
+    width: 95%;
 
-  
+  }
 }
 
-@media only screen and (max-width: 720px) {
+
+@media only screen and (max-width: 920px) {
+  /* For mobile phones: */
+  #primarycontent {
+    width: 90%;
+    margin-top: 200px;
+
+  }
+}
+@media only screen and (max-width: 920px) {
+  /* For mobile phones: */
+  #secondarycontent {
+    width: 50%;
+    margin-top: 10px;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 920px) {
   /* For mobile phones: */
   #header #logo {
     width: 100%;
   }
 }
 
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 920px) {
   /* For mobile phones: */
   #header #splash {
+    width: 100%;
+    text-align: center;
     display: none;
   }
 }
 
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 920px) {
   /* For mobile phones: */
   #secondarycontent {
-    width: 0%;
-    display: none;
+    width: 100%;
+    display: left;
+    text-align: center;
+  }
+  #secondarycontent .content {
+    text-align: left;
   }
 }
 
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 920px) {
   /* For mobile phones: */
   primarycontent {
     width: 100%;
     margin: 0;
+  }
+}
+
+@media only screen and (max-width: 920px) {
+  .footer {
+    width: 20%;
+    height: 20px;
   }
 }
